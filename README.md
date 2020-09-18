@@ -36,7 +36,7 @@ That way, you can connect to your local
 
 
 
-# Intructions for the DEVELOPPER VERSION
+# Instructions for the DEVELOPPER VERSION
 
 Make sure you read the Introduction chapter before you start.
 
