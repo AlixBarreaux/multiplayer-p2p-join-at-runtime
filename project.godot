@@ -26,7 +26,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Multiplayer Parkour"
+config/name="Multiplayer P2P - Join at Runtime"
 run/main_scene="res://GUI/Main_Menu/MainMenu.tscn"
 config/icon="res://icon.png"
 
