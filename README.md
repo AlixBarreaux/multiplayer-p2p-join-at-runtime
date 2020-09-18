@@ -8,14 +8,14 @@ Demo for creating and joining a Peer to Peer game at runtime. Made with Godot us
 
 Before you do anything, you should know there are 2 main "parts" in this project:
 
-1) The builds for the end user: Windows, Linux, Mac. We will call it the PLAYABLE VERSION.
+1) The builds for the end user: Windows, Linux, Mac. We will call it the USER VERSION.
 
 2) The source code running in the engine available to you. We will call it the DEVELOPPER VERSION.
 
 
 
 
-# Instructions for the PLAYABLE VERSION
+# Instructions for the USER VERSION
 
 Make sure you read the Introduction chapter before you start.
 
