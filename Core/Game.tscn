@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Core/World Elements/Players.gd" type="Script" id=1]
+[ext_resource path="res://TileMaps/Terrain.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Greeny.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Core/Game.gd" type="Script" id=4]
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Terrain" parent="." instance=ExtResource( 2 )]
+
+[node name="Sprays" type="Node2D" parent="."]
+
+[node name="PlayerSpawnPoints" type="Node2D" parent="."]
+
+[node name="PlayerSpawnPoint1" type="Position2D" parent="PlayerSpawnPoints"]
+position = Vector2( 60.8112, 253.144 )
+
+[node name="PlayerSpawnPoint2" type="Position2D" parent="PlayerSpawnPoints"]
+position = Vector2( 538.815, 59.397 )
+
+[node name="PlayerSpawnPoint3" type="Position2D" parent="PlayerSpawnPoints"]
+position = Vector2( 964.494, 253.144 )
+
+[node name="PlayerSpawnPoint4" type="Position2D" parent="PlayerSpawnPoints"]
+position = Vector2( 538.815, 533.159 )
+
+[node name="Players" type="Node2D" parent="."]
+script = ExtResource( 1 )
+
+[node name="SuperSpriteOfLife" parent="." instance=ExtResource( 3 )]
+position = Vector2( 37, 12.3702 )
